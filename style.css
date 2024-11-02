@@ -1,0 +1,55 @@
+
+
+body {
+    font-family: Tahoma; /* Семейство шрифтов */
+    font-size: 30px; /* Размер основного шрифта в <p></p>  */
+    background-color: #E2F1E7; /* Цвет фона веб-страницы */
+    color: #243642; /* Цвет основного текста */
+    padding: 60px;
+}
+
+h1 {
+    color: #243642; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: Tahoma;
+}
+
+div{
+    color: #387478;
+    font-size: 55px;
+    font-family: Tahoma;
+    animation: color-change 3s infinite;
+}
+
+h2 {
+    color: #387478;
+    font-family: Tahoma;
+}
+
+b{
+    color: #629584;
+    font-family: Tahoma;
+}
+
+ul{
+    border: 3px solid;
+    font-family: Tahoma;
+}
+
+p{
+    font-family: Tahoma;
+}
+
+@keyframes color-change {
+    0% {
+      color: #243642;
+    }
+  
+    50% {
+      color: #629584;
+    }
+  
+    100% {
+      color: #243642;
+    }
+}
